@@ -1,0 +1,25 @@
+// Define SCSS Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Segoe UI', sans-serif;
+$padding: 20px;
+
+// Styles using SCSS variables
+body {
+  font-family: $font-stack;
+  background-color: $primary-color;
+  color: white;
+  padding: $padding;
+  text-align: center;
+}
+
+button {
+  background-color: $secondary-color;
+  border: none;
+  padding: $padding;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+}

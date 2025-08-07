@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rotate{
+            margin-top: 80px;
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            margin: 80px auto;
+            transform: rotate(45deg);
+            position: relative;
+            animation-name: bounce;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         h2{
+            
+            text-align: center;
+        }
+         @keyframes bounce{
+            0%{
+                top: 0;
+            }
+            50%{
+                top: 150px;
+                background-color: red;
+            }
+            80%{
+                top: 600px;
+            }
+            100%{
+                top: 0;
+            }
+            from {
+                    transform: rotate(0deg);
+                    background-color: blueviolet;
+                                }
+             to {
+            transform: rotate(360deg);
+                 }
+
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="rotate"> <h2>NOOBIE</h2></div>
+</body>
+</html>

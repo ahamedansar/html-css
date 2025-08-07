@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Easy Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://wallpaperaccess.com/full/1567670.jpg') no-repeat center center/cover;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      border: 5px solid #fff;
+    }
+
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(6px);
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 300px;
+      min-width: 280px;
+      color: #fff;
+    }
+
+    .box h2 {
+      color: #fff;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .skills-bar {
+      background: #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 12px;
+      margin: 10px 0;
+    }
+
+    .skills-bar span {
+      display: block;
+      height: 100%;
+      background: #4db8ff;
+    }
+
+    .contact li, .languages li {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      .row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-img">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile Picture" />
+    </div>
+    <h1>Hi, I am Julia</h1>
+    <p class="title">Creative Director</p>
+
+    <div class="row">
+      <div class="box">
+        <h2>Easy Profile</h2>
+        <p>Bootstrap v3.3.5</p>
+        <p>This easy HTML profile is brought to you by templatemag website. There are 4 color themes. Edit, use it freely.</p>
+      </div>
+
+      <div class="box">
+        <h2>Skills</h2>
+        <p>PHP/MySQL</p>
+        <div class="skills-bar"><span style="width: 70%"></span></div>
+        <p>UI/UX Design</p>
+        <div class="skills-bar"><span style="width: 95%"></span></div>
+        <p>Bootstrap</p>
+        <div class="skills-bar"><span style="width: 99%"></span></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="box">
+        <h2>Education</h2>
+        <p><strong>New Web Design</strong></p>
+        <p>School of Media | 2030 January – 2034 December</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula felis id orci.</p>
+      </div>
+
+      <div class="box languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>Myanmar / Thai</li>
+          <li>English / Spanish</li>
+          <li>Chinese / Japanese</li>
+          <li>Arabic / Hebrew</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="box contact">
+        <h2>Contact</h2>
+        <ul>
+          <li>📍 123 Rama IX Road, Bangkok</li>
+          <li>📞 090-000-0000</li>
+          <li>✉️ xxx@xxx.com</li>
+          <li>🌐 www.company.com</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Experiences</h2>
+        <p><strong>Website Development</strong></p>
+        <p>New Media Company | 2035 January – 2036 April</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.</p>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2084 Your Easy Profile
+    </footer>
+  </div>
+</body>
+</html>

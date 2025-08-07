@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(qe.jpeg);
+            background-size: cover;
+           
+        }
+        .ansar{
+            margin-left: 30px;
+            
+        }
+        input[required]{
+            background-color: aquamarine;
+            border: 3px solid red;
+        }
+        input[type="email"]{
+            background-color: bisque;
+            border: 3px solid blue;
+            
+            height: 20px;
+        }
+        div[class~="highlight"]{
+            border: 3px solid yellow;
+            background-color: blueviolet;
+            width: 200px;
+            height: 40px;
+        }
+        p[lang|="en"]{/*attr|="value". exact or start*/ 
+        color: rgb(249, 249, 249);
+        width: 600px;
+        }
+        a[href^="https"]{
+            color: green;
+            text-decoration: none;
+        }
+        img[src$=".jpeg"]{
+            border: 3px solid black;
+            width: 300px;
+        }
+        a[href*="about"]{
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: double;
+            color: brown;
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="ansar">
+   <h2 style="color: white;">CSS Attribute Selectors</h2> 
+   <input type="text" placeholder="your name" required> <br><br>
+   <input type="email" placeholder="your email"> <br><br>
+
+<div class="box highlight"> 
+box highlighted
+</div><br>
+<p lang="en">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis et minus tempora temporibus earum hic commodi recusandae quis ad dolorum corrupti, provident officia itaque, cupiditate neque illo tenetur quae deleniti architecto accusamus nostrum? Eius laboriosam accusamus minima neque vel corporis sint hic autem culpa aperiam! Tempora a maiores expedita inventore.</p>
+<p lang="en-us">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dignissimos totam amet et sed nulla cum dicta earum accusantium doloribus nostrum quasi non, quis cupiditate laborum? Non aliquid dolorem nihil officia? Quisquam sit minus eaque nam pariatur, eveniet quo libero et a, temporibus perspiciatis impedit animi neque cumque quia dolore?</p> <br> <br>
+
+<a href="https://techolas.com/login">LOGIN</a> <br> <br>
+<img src="meee.jpeg" alt=""> <br>
+<img src="man.jpeg" alt=""> <br>
+
+<a href="https://techolas.com/about">ABOUT</a> <br> <br>   
+
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+:root{
+    --main-color: yellow;
+    --padding-size: 10px;
+    --text-color: rgb(13, 11, 11);
+   
+
+}
+.box{
+    background-color: var(--main-color);
+    padding: var(--padding-size);
+    border: 5px solid rgb(239, 10, 189);
+    color:var(--text-color);
+    width: 300px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+    height: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}

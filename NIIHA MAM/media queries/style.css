@@ -1,0 +1,20 @@
+.ansar{
+   text-align: center;
+    background-color: blue;
+    color: azure;
+    padding: 20px;
+}
+@media(max-width:480px){
+    .ansar{
+        background-color: aquamarine;
+        font-size: 14px;
+    }
+  }
+ 
+  @media(man-width:481px) and (max-width:768px){
+    .ansar{
+        background-color: rgb(2, 11, 107);
+        font-size: 18px;
+    }
+}
+

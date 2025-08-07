@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        body {
+    margin: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  
+   
+   
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header  header header"
+        "sidebar content1 content1"
+        "sidebar content2 content3"
+       "footer  footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 8fr 20fr 20fr 8fr;
+    gap: 20px;
+    padding: 10px;
+   height: 900px;
+    background-color: rgb(85, 85, 85);
+    width: 1400px;
+    margin-left: 270px;
+    
+   }
+
+.header {
+    grid-area: header;
+ background-color: #7f00ff;
+color: white;
+    padding: 20px;
+    text-align: center;
+     border: 5px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.sidebar {
+    grid-area: sidebar;
+background-color:lightseagreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+     border: 5px solid black;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.content1 {
+    grid-area: content1;
+   background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+     border: 5px solid black;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.content2 {
+    grid-area: content2;
+     background: linear-gradient(to right bottom, #36d1dc, #5b86e5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+     border: 5px solid black;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.content3 {
+    grid-area: content3;
+  background: linear-gradient(to right top, #36d1dc, #5b86e5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+     border: 5px solid black;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.footer {
+    grid-area: footer;
+ background-color: #7f00ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+     border: 5px solid black;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+        <div class="header">Header</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="content1">Content-1</div>
+        <div class="content2">Content-2</div>
+        <div class="content3">Content-3</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

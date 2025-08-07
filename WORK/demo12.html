@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarah's Favorite Animal</title>
+ <style>
+    /* Whole Page */
+body {
+  background-color: #b3d9e6;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+
+h1 {
+  font-size: 2.5em;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #a0c69e;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+.navbar > span {
+  margin: 0 40px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Image and Text Side-by-Side */
+.main-content {
+  display: flex;
+  align-items: flex-start;
+ 
+}
+
+.main-content > img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.main-content .text p {
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+/* Link in paragraph */
+.text p a {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* Sections after main-content */
+.main-content ~ h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+/* Lists next to headings */
+h2 + ol, h2 + ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ol li, ul li {
+  margin: 5px 0;
+}
+
+
+ </style>
+</head>
+<body>
+  <h1>Sarah's Favorite Animal</h1>
+
+  <div class="navbar">
+    <span>Home</span>
+    <span>Fun Facts</span>
+  </div> <br>
+
+  <div class="main-content">
+    <img src="mann.jpeg" alt="Moose">
+    <div class="text">
+      <p>My name is Sarah, and my favorite animal is the moose.<br>
+        They can be up to 6.5 feet tall and weigh 1200 pounds.<br>
+        Surprisingly, they're really good at swimming!
+      </p>
+      <p>
+        If you want to learn more about the moose, check out 
+        <a href="https://en.wikipedia.org/wiki/Moose" target="_blank">its Wikipedia page.</a>
+      </p>
+    </div>
+  </div>
+
+  <h2>Moose are awesome because...</h2>
+  <ol>
+    <li>They can swim really well</li>
+    <li>They can make really funny noises</li>
+    <li>They can close their nostrils</li>
+  </ol>
+
+  <h2>If I were a moose, I would...</h2>
+  <ul>
+    <li>Eat lots of lettuce</li>
+    <li>Carry little animals on my antlers</li>
+    <li>Swim to Alaska</li>
+  </ul>
+</body>
+</html>

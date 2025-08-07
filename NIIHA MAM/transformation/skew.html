@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skwe</title>
+    <style>
+        .skew{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            transform: skew(20deg, 30deg);
+            margin-left: 480px;
+            margin-top: 150px;
+            animation-name: bounce;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+         @keyframes bounce{
+            
+            from {
+                    transform: skew(20deg,30deg);
+                    background-color: blueviolet;
+                                }
+             to {
+            transform: skew(-20deg, -30deg);
+                 }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="skew">
+
+    </div>
+</body>
+</html>
