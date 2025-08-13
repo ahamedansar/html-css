@@ -91,29 +91,31 @@ body {
 
 
 @media (max-width: 768px) {
+  .hamburger {
+    display: block; /* show on mobile/tablet */
+    color: black;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
-    background: white;
+    background: rgb(161, 7, 7);
     position: absolute;
     top: 60px;
     right: 20px;
     border-radius: 8px;
     padding: 10px;
+    width: 150px;
+   
   }
-  .nav-links.active {
+
+  .nav-links a {
+    color: black;
+  }
+
+  /* When checkbox is checked, show menu */
+  #menu-toggle:checked ~ .nav-links {
     display: flex;
-  }
-  .menu-toggle {
-    display: block;
-  }
-  .service-boxes {
-    flex-direction: column;
   }
 }
 
-@media (max-width: 480px) {
-  .hero h1 {
-    font-size: 1.5rem;
-  }
-}

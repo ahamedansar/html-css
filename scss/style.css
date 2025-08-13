@@ -1,0 +1,31 @@
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #212529;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(215.8369098712, 218.6566523605, 221.1630901288);
+}
+
+h1 {
+  color: #0d6efd;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #0d6efd;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+.btn-secondary:hover {
+  background-color: rgb(84.3605150215, 91.3905579399, 97.6394849785);
+}/*# sourceMappingURL=style.css.map */

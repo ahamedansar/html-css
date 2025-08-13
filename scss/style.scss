@@ -1,0 +1,42 @@
+// 🎯 Define variables (colors, fonts, sizes)
+$primary-color: #0d6efd;
+$secondary-color: #6c757d;
+$text-color: #212529;
+$font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+$padding: 12px;
+$border-radius: 6px;
+
+// 🌈 Apply variables
+body {
+  font-family: $font-family;
+  color: $text-color;
+  margin: 0;
+  padding: 20px;
+  background-color: lighten($secondary-color, 40%);
+}
+
+h1 {
+  color: $primary-color;
+}
+
+.btn {
+  display: inline-block;
+  padding: $padding;
+  border-radius: $border-radius;
+  background-color: $primary-color;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary-color;
+
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+}
